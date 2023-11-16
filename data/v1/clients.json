@@ -1,0 +1,98 @@
+[
+  {
+    "id": "internal",
+    "name": "Internal Pipelines",
+    "type": "Internal",
+    "description": "Internal system-to-system data pipelines.",
+    "deviceType": "System",
+    "userAgent": "grpc-rust/9.2.1"
+  },
+  {
+    "id": "3e7780b8-7b57-44d2-ab6c-163ee1e18bb3",
+    "name": "User iOS Device",
+    "type": "External",
+    "description": "End user device",
+    "deviceType": "Mobile",
+    "userAgent": "Mozilla/5.0 (X11; Linux i686 AppleWebKit/533.1.0 (KHTML, like Gecko) Chrome/36.0.811.0 Safari/533.1.0"
+  },
+  {
+    "id": "afd3bbb4-b5b3-4f1c-b2d0-67589ec4aae0",
+    "name": "aware-quartet",
+    "type": "External",
+    "description": "Programmable mobile process improvement",
+    "deviceType": "Desktop",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:6.9) Gecko/20100101 Firefox/6.9.6"
+  },
+  {
+    "id": "92acbe2a-46fd-4dab-9470-d529ad4d1dd2",
+    "name": "exemplary-pancake",
+    "type": "External",
+    "description": "Advanced radical framework",
+    "deviceType": "Web",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:15.3) Gecko/20100101 Firefox/15.3.2"
+  },
+  {
+    "id": "27ce56a4-ed5b-4cec-a382-69e5cdeef27c",
+    "name": "hasty-landing",
+    "type": "External",
+    "description": "Synchronised intangible core",
+    "deviceType": "Mobile",
+    "userAgent": "Mozilla/5.0 (Windows; U; Windows NT 6.3) AppleWebKit/531.2.0 (KHTML, like Gecko) Chrome/22.0.838.0 Safari/531.2.0"
+  },
+  {
+    "id": "a5046c83-530f-4453-b03e-339dd9be9336",
+    "name": "proud-lightning",
+    "type": "External",
+    "description": "Reduced attitude-oriented archive",
+    "deviceType": "Desktop",
+    "userAgent": "Mozilla/5.0 (Macintosh; PPC Mac OS X 10.10.0; rv:5.6) Gecko/20100101 Firefox/5.6.3"
+  },
+  {
+    "id": "e52b9bba-8ef8-4f96-919f-5fd4646d710a",
+    "name": "unruly-catamaran",
+    "type": "External",
+    "description": "Diverse client-driven synergy",
+    "deviceType": "Desktop",
+    "userAgent": "Opera/13.73 (Windows NT 6.2; U; AB Presto/2.9.177 Version/12.00)"
+  },
+  {
+    "id": "85fc8866-5c3d-463f-a0c9-abe273249310",
+    "name": "weary-messenger",
+    "type": "External",
+    "description": "Front-line national moratorium",
+    "deviceType": "System",
+    "userAgent": "Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/7.0; .NET CLR 4.6.77531.8)"
+  },
+  {
+    "id": "bea1bc69-5f0a-49a8-aabc-c6282ef8a674",
+    "name": "rectangular-paw",
+    "type": "External",
+    "description": "Vision-oriented bifurcated Graphical User Interface",
+    "deviceType": "System",
+    "userAgent": "Opera/10.18 (Macintosh; Intel Mac OS X 10.10.9 U; UK Presto/2.9.167 Version/10.00)"
+  },
+  {
+    "id": "daad6d82-3df5-4e14-be9e-10ab9f8120eb",
+    "name": "negative-sake",
+    "type": "External",
+    "description": "Exclusive needs-based open architecture",
+    "deviceType": "System",
+    "userAgent": "Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_10_8 rv:5.0; RO) AppleWebKit/537.1.0 (KHTML, like Gecko) Version/7.1.4 Safari/537.1.0"
+  },
+  {
+    "id": "b51cf8c9-f455-4209-bbc0-d9cfb1f436b2",
+    "name": "dimpled-grandpa",
+    "type": "External",
+    "description": "Reverse-engineered web-enabled projection",
+    "deviceType": "Desktop",
+    "userAgent": "Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_6_6)  AppleWebKit/531.2.2 (KHTML, like Gecko) Chrome/28.0.857.0 Safari/531.2.2"
+  },
+  {
+    "id": "c969518f-625d-49f6-8472-9d011a8679e9",
+    "name": "yawning-shallows",
+    "type": "External",
+    "description": "Organized scalable toolset",
+    "deviceType": "Web",
+    "userAgent": "Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_6_7)  AppleWebKit/533.0.1 (KHTML, like Gecko) Chrome/14.0.875.0 Safari/533.0.1"
+  }
+]

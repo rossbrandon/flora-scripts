@@ -1,0 +1,146 @@
+[
+  {
+    "health": "Investigation Needed",
+    "clientId": "internal",
+    "upstream": {
+      "systemId": "contentIngest",
+      "total": 1750000,
+      "inError": 0,
+      "health": "Healthy"
+    },
+    "downstreams": [
+      {
+        "systemId": "imageAnalyzer",
+        "expected": 3000,
+        "received": 3000,
+        "missing": 0,
+        "inError": 0,
+        "lastReceived": {
+          "id": "9eb5b72d-a491-42f2-9785-aaed4ca22cb9",
+          "timestamp": "2023-11-11T00:42:24.300Z"
+        },
+        "health": "Healthy"
+      },
+      {
+        "systemId": "videoAnalyzer",
+        "expected": 17000,
+        "received": 17000,
+        "missing": 0,
+        "inError": 0,
+        "lastReceived": {
+          "id": "1b8823a7-0eb9-43cb-a88e-4ca393253b74",
+          "timestamp": "2023-11-10T10:49:33.084Z"
+        },
+        "health": "Healthy"
+      },
+      {
+        "systemId": "fileStorage",
+        "expected": 1750000,
+        "received": 751794,
+        "missing": 998206,
+        "inError": 0,
+        "lastReceived": {
+          "id": "64880e44-fde6-4de1-b5da-7e699e407461",
+          "timestamp": "2023-11-12T18:41:16.584Z"
+        },
+        "health": "Healthy"
+      },
+      {
+        "systemId": "metadataStorage",
+        "expected": 1500,
+        "received": 1035,
+        "missing": 115,
+        "inError": 350,
+        "lastReceived": {
+          "id": "d98c65d0-95ae-41ef-a603-9097afaaf627",
+          "timestamp": "2023-11-11T22:30:46.570Z"
+        },
+        "health": "Investigation Needed"
+      }
+    ]
+  },
+  {
+    "health": "Healthy",
+    "clientId": "internal",
+    "upstream": {
+      "systemId": "eventCollector",
+      "total": 580000,
+      "inError": 0,
+      "health": "Healthy"
+    },
+    "downstreams": [
+      {
+        "systemId": "clickAnalyzer",
+        "expected": 5000,
+        "received": 3000,
+        "missing": 2000,
+        "inError": 0,
+        "lastReceived": {
+          "id": "78ce4abc-fb4e-4883-b162-a8d12354c0ea",
+          "timestamp": "2023-11-12T18:43:16.584Z"
+        },
+        "health": "Healthy"
+      },
+      {
+        "systemId": "recommender",
+        "expected": 573000,
+        "received": 573000,
+        "missing": 0,
+        "inError": 0,
+        "lastReceived": {
+          "id": "1ebb1805-4fb8-4cd9-b5b0-79dd168d3492",
+          "timestamp": "2023-11-11T20:35:33.960Z"
+        },
+        "health": "Healthy"
+      },
+      {
+        "systemId": "adCreator",
+        "expected": 2000,
+        "received": 2000,
+        "missing": 0,
+        "inError": 0,
+        "lastReceived": {
+          "id": "df6e5865-59ce-41f6-9db1-5ae7c3bb3cc3",
+          "timestamp": "2023-11-11T21:50:01.371Z"
+        },
+        "health": "Healthy"
+      }
+    ]
+  },
+  {
+    "health": "Unhealthy",
+    "clientId": "internal",
+    "upstream": {
+      "systemId": "userManager",
+      "total": 275000,
+      "inError": 50000,
+      "health": "Unhealthy"
+    },
+    "downstreams": [
+      {
+        "systemId": "settingsService",
+        "expected": 275000,
+        "received": 225000,
+        "missing": 50000,
+        "inError": 0,
+        "lastReceived": {
+          "id": "318f69d8-197d-4441-a568-81ed9ba30559",
+          "timestamp": "2023-11-08T11:20:12.462Z"
+        },
+        "health": "Unhealthy"
+      },
+      {
+        "systemId": "profileService",
+        "expected": 275000,
+        "received": 225000,
+        "missing": 50000,
+        "inError": 0,
+        "lastReceived": {
+          "id": "c67630bc-6786-4721-aa5b-fd6e2e9ea23b",
+          "timestamp": "2023-11-06T04:28:25.141Z"
+        },
+        "health": "Unhealthy"
+      }
+    ]
+  }
+]

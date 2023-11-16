@@ -1,0 +1,37 @@
+[
+  {
+    "systemId": "contentIngest",
+    "name": "Content Ingestion",
+    "systemDiagramUrl": "https://excalidraw.com",
+    "runbookUrl": "https://exhausted-flock.biz/runbook",
+    "contactSlackChannel": "https://identical-preoccupation.net//slack#contentIngestSupport,"
+  },
+  {
+    "systemId": "videoAnalyzer",
+    "name": "Video Analyzer",
+    "systemDiagramUrl": "https://excalidraw.com",
+    "runbookUrl": "https://exhausted-flock.biz/runbook",
+    "contactSlackChannel": "https://identical-preoccupation.net//slack#contentIngestSupport,"
+  },
+  {
+    "systemId": "videoAnalyzer",
+    "name": "Video Analyzer",
+    "systemDiagramUrl": "https://excalidraw.com",
+    "runbookUrl": "https://exhausted-flock.biz/runbook",
+    "contactSlackChannel": "https://identical-preoccupation.net//slack#contentIngestSupport,"
+  },
+  {
+    "systemId": "fileStorage",
+    "name": "File Storage",
+    "systemDiagramUrl": "https://excalidraw.com",
+    "runbookUrl": "https://exhausted-flock.biz/runbook",
+    "contactSlackChannel": "https://identical-preoccupation.net//slack#contentIngestSupport,"
+  },
+  {
+    "systemId": "metadataStorage",
+    "name": "Metadata Storage",
+    "systemDiagramUrl": "https://excalidraw.com",
+    "runbookUrl": "https://exhausted-flock.biz/runbook",
+    "contactSlackChannel": "https://identical-preoccupation.net//slack#contentIngestSupport,"
+  }
+]

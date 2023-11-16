@@ -1,0 +1,794 @@
+[
+  {
+    "health": "Investigation Needed",
+    "meta": {
+      "systemDiagramUrl": "https://excalidraw.com",
+      "runbookUrl": "https://exhausted-flock.biz/runbook",
+      "contactSlackChannel": "https://identical-preoccupation.net//slack#contentIngestSupport,"
+    },
+    "clientId": "internal",
+    "upstream": {
+      "id": "contentIngest",
+      "name": "Content Ingestion",
+      "total": 1750000,
+      "inError": 0,
+      "health": "Healthy"
+    },
+    "downstreams": [
+      {
+        "id": "imageAnalyzer",
+        "name": "Image Analyzer",
+        "expected": 3000,
+        "received": 3000,
+        "missing": 0,
+        "inError": 0,
+        "lastReceived": {
+          "id": "9eb5b72d-a491-42f2-9785-aaed4ca22cb9",
+          "timestamp": "2023-11-11T00:42:24.300Z"
+        },
+        "health": "Healthy"
+      },
+      {
+        "id": "videoAnalyzer",
+        "name": "Video Analyzer",
+        "expected": 17000,
+        "received": 17000,
+        "missing": 0,
+        "inError": 0,
+        "lastReceived": {
+          "id": "1b8823a7-0eb9-43cb-a88e-4ca393253b74",
+          "timestamp": "2023-11-10T10:49:33.084Z"
+        },
+        "health": "Healthy"
+      },
+      {
+        "id": "fileStorage",
+        "name": "File Storage",
+        "expected": 1750000,
+        "received": 751794,
+        "missing": 998206,
+        "inError": 0,
+        "lastReceived": {
+          "id": "64880e44-fde6-4de1-b5da-7e699e407461",
+          "timestamp": "2023-11-12T18:41:16.584Z"
+        },
+        "health": "Healthy"
+      },
+      {
+        "id": "metadataStorage",
+        "name": "Metadata Storage",
+        "expected": 1500,
+        "received": 1035,
+        "missing": 115,
+        "inError": 350,
+        "lastReceived": {
+          "id": "d98c65d0-95ae-41ef-a603-9097afaaf627",
+          "timestamp": "2023-11-11T22:30:46.570Z"
+        },
+        "health": "Investigation Needed"
+      }
+    ]
+  },
+  {
+    "health": "Healthy",
+    "meta": {
+      "runbookUrl": "https://incompatible-tray.biz//runbook",
+      "contactSlackChannel": "https://parallel-crawdad.info//slack#contentIngestSupport,"
+    },
+    "clientId": "internal",
+    "upstream": {
+      "id": "eventCollector",
+      "name": "Event Collector",
+      "total": 580000,
+      "inError": 0,
+      "health": "Healthy"
+    },
+    "downstreams": [
+      {
+        "id": "clickAnalyzer",
+        "name": "Click Analyzer",
+        "expected": 5000,
+        "received": 3000,
+        "missing": 2000,
+        "inError": 0,
+        "lastReceived": {
+          "id": "78ce4abc-fb4e-4883-b162-a8d12354c0ea",
+          "timestamp": "2023-11-12T18:43:16.584Z"
+        },
+        "health": "Healthy"
+      },
+      {
+        "id": "recommender",
+        "name": "Recommender Engine",
+        "expected": 573000,
+        "received": 573000,
+        "missing": 0,
+        "inError": 0,
+        "lastReceived": {
+          "id": "1ebb1805-4fb8-4cd9-b5b0-79dd168d3492",
+          "timestamp": "2023-11-11T20:35:33.960Z"
+        },
+        "health": "Healthy"
+      },
+      {
+        "id": "adCreator",
+        "name": "Ad Creator",
+        "expected": 2000,
+        "received": 2000,
+        "missing": 0,
+        "inError": 0,
+        "lastReceived": {
+          "id": "df6e5865-59ce-41f6-9db1-5ae7c3bb3cc3",
+          "timestamp": "2023-11-11T21:50:01.371Z"
+        },
+        "health": "Healthy"
+      }
+    ]
+  },
+  {
+    "health": "Unhealthy",
+    "meta": {
+      "systemDiagramUrl": "https://excalidraw.com",
+      "runbookUrl": "https://quizzical-wombat.net/runbook",
+      "contactSlackChannel": "https://smug-isolation.net/slack#contentIngestSupport,"
+    },
+    "clientId": "internal",
+    "upstream": {
+      "id": "userManager",
+      "name": "User Manager",
+      "total": 275000,
+      "inError": 50000,
+      "health": "Unhealthy"
+    },
+    "downstreams": [
+      {
+        "id": "settingsService",
+        "name": "Settings Service",
+        "expected": 275000,
+        "received": 225000,
+        "missing": 50000,
+        "inError": 0,
+        "lastReceived": {
+          "id": "318f69d8-197d-4441-a568-81ed9ba30559",
+          "timestamp": "2023-11-08T11:20:12.462Z"
+        },
+        "health": "Unhealthy"
+      },
+      {
+        "id": "profileService",
+        "name": "Profile Service",
+        "expected": 275000,
+        "received": 225000,
+        "missing": 50000,
+        "inError": 0,
+        "lastReceived": {
+          "id": "c67630bc-6786-4721-aa5b-fd6e2e9ea23b",
+          "timestamp": "2023-11-06T04:28:25.141Z"
+        },
+        "health": "Unhealthy"
+      }
+    ]
+  },
+  {
+    "health": "Healthy",
+    "clientId": "3e7780b8-7b57-44d2-ab6c-163ee1e18bb3",
+    "upstream": {
+      "id": "3e7780b8-7b57-44d2-ab6c-163ee1e18bb3",
+      "name": "User Client",
+      "total": 11337,
+      "inError": 0,
+      "health": "Healthy"
+    },
+    "downstreams": [
+      {
+        "id": "contentIngest",
+        "name": "Content Ingestion",
+        "expected": 11337,
+        "received": 9857,
+        "missing": 1480,
+        "inError": 0,
+        "lastReceived": {
+          "id": "20142bfc-73d1-4a1d-8b7e-b227ad0b2cd7",
+          "timestamp": "2023-11-12T18:47:29.584Z"
+        },
+        "health": "Healthy"
+      },
+      {
+        "id": "userManager",
+        "name": "User Manager",
+        "expected": 15,
+        "received": 15,
+        "missing": 0,
+        "inError": 0,
+        "lastReceived": {
+          "id": "565ca43c-92cf-46dc-a8df-456f38aaaa95",
+          "timestamp": "2023-10-20T12:02:55.628Z"
+        },
+        "health": "Healthy"
+      },
+      {
+        "id": "eventCollector",
+        "name": "Event Collector",
+        "expected": 78549,
+        "received": 78549,
+        "missing": 0,
+        "inError": 0,
+        "lastReceived": {
+          "id": "2afbe75e-2144-45c7-9756-8fce0fe28fa7",
+          "timestamp": "2023-11-04T20:01:40.126Z"
+        },
+        "health": "Healthy"
+      }
+    ]
+  },
+  {
+    "health": "Healthy",
+    "meta": {
+      "systemDiagramUrl": "https://excalidraw.com",
+      "runbookUrl": "https://required-era.name/runbook",
+      "contactSlackChannel": "https://tired-grocery.info//slack#userClientSupport"
+    },
+    "clientId": "afd3bbb4-b5b3-4f1c-b2d0-67589ec4aae0",
+    "upstream": {
+      "id": "afd3bbb4-b5b3-4f1c-b2d0-67589ec4aae0",
+      "name": "User Client",
+      "total": 18433,
+      "inError": 10458,
+      "health": "Unhealthy"
+    },
+    "downstreams": [
+      {
+        "id": "contentIngest",
+        "name": "Content Ingestion",
+        "expected": 18433,
+        "received": 18433,
+        "missing": 0,
+        "inError": 0,
+        "lastReceived": {
+          "id": "fa753508-b94d-40ab-9b6d-f769522058b3",
+          "timestamp": "2023-10-15T19:42:58.990Z"
+        },
+        "health": "Healthy"
+      },
+      {
+        "id": "userManager",
+        "name": "User Manager",
+        "expected": 15,
+        "received": 15,
+        "missing": 0,
+        "inError": 0,
+        "lastReceived": {
+          "id": "63347272-6be2-4153-86c5-ba862f456a95",
+          "timestamp": "2023-10-15T20:00:26.832Z"
+        },
+        "health": "Healthy"
+      },
+      {
+        "id": "eventCollector",
+        "name": "Event Collector",
+        "expected": 13210,
+        "received": 13210,
+        "missing": 0,
+        "inError": 0,
+        "lastReceived": {
+          "id": "b6089349-eaa8-4cb2-9673-a289c2ffa225",
+          "timestamp": "2023-11-12T17:01:32.744Z"
+        },
+        "health": "Healthy"
+      }
+    ]
+  },
+  {
+    "health": "Healthy",
+    "meta": {
+      "systemDiagramUrl": "https://excalidraw.com",
+      "runbookUrl": "https://jumpy-cyclamen.biz//runbook",
+      "contactSlackChannel": "https://subdued-lunch.info/slack#userClientSupport"
+    },
+    "clientId": "92acbe2a-46fd-4dab-9470-d529ad4d1dd2",
+    "upstream": {
+      "id": "92acbe2a-46fd-4dab-9470-d529ad4d1dd2",
+      "name": "User Client",
+      "total": 116711,
+      "inError": 53641,
+      "health": "Unhealthy"
+    },
+    "downstreams": [
+      {
+        "id": "contentIngest",
+        "name": "Content Ingestion",
+        "expected": 116711,
+        "received": 116711,
+        "missing": 0,
+        "inError": 0,
+        "lastReceived": {
+          "id": "5f359abf-1111-4475-a482-89dda153a704",
+          "timestamp": "2023-10-26T00:01:27.267Z"
+        },
+        "health": "Healthy"
+      },
+      {
+        "id": "userManager",
+        "name": "User Manager",
+        "expected": 15,
+        "received": 15,
+        "missing": 0,
+        "inError": 0,
+        "lastReceived": {
+          "id": "7b376ecb-1470-4c33-be47-3460a1322d5b",
+          "timestamp": "2023-10-30T13:54:16.300Z"
+        },
+        "health": "Healthy"
+      },
+      {
+        "id": "eventCollector",
+        "name": "Event Collector",
+        "expected": 268780,
+        "received": 268780,
+        "missing": 0,
+        "inError": 0,
+        "lastReceived": {
+          "id": "5b530d76-a957-42f1-b9a7-3029b92a368f",
+          "timestamp": "2023-11-12T18:26:27.808Z"
+        },
+        "health": "Healthy"
+      }
+    ]
+  },
+  {
+    "health": "Healthy",
+    "meta": {
+      "systemDiagramUrl": "https://excalidraw.com",
+      "runbookUrl": "https://perfect-codepage.com/runbook",
+      "contactSlackChannel": "https://cheap-light.info/slack#userClientSupport"
+    },
+    "clientId": "27ce56a4-ed5b-4cec-a382-69e5cdeef27c",
+    "upstream": {
+      "id": "27ce56a4-ed5b-4cec-a382-69e5cdeef27c",
+      "name": "User Client",
+      "total": 38783,
+      "inError": 28826,
+      "health": "Unhealthy"
+    },
+    "downstreams": [
+      {
+        "id": "contentIngest",
+        "name": "Content Ingestion",
+        "expected": 38783,
+        "received": 38783,
+        "missing": 0,
+        "inError": 0,
+        "lastReceived": {
+          "id": "e76f4299-82f5-4d11-a0fe-76fdd16ba31b",
+          "timestamp": "2023-10-20T06:03:53.325Z"
+        },
+        "health": "Healthy"
+      },
+      {
+        "id": "userManager",
+        "name": "User Manager",
+        "expected": 15,
+        "received": 15,
+        "missing": 0,
+        "inError": 0,
+        "lastReceived": {
+          "id": "ca535866-d2b8-4ba0-b5f0-14dee01d737b",
+          "timestamp": "2023-11-04T02:20:07.569Z"
+        },
+        "health": "Healthy"
+      },
+      {
+        "id": "eventCollector",
+        "name": "Event Collector",
+        "expected": 100814,
+        "received": 100814,
+        "missing": 0,
+        "inError": 0,
+        "lastReceived": {
+          "id": "7ee12a22-c3b2-4a9c-9b0c-2d6755d44e73",
+          "timestamp": "2023-11-12T17:14:16.312Z"
+        },
+        "health": "Healthy"
+      }
+    ]
+  },
+  {
+    "health": "Healthy",
+    "meta": {
+      "systemDiagramUrl": "https://excalidraw.com",
+      "runbookUrl": "https://wiry-painting.name//runbook",
+      "contactSlackChannel": "https://better-nucleotidase.biz//slack#userClientSupport"
+    },
+    "clientId": "a5046c83-530f-4453-b03e-339dd9be9336",
+    "upstream": {
+      "id": "a5046c83-530f-4453-b03e-339dd9be9336",
+      "name": "User Client",
+      "total": 58529,
+      "inError": 55747,
+      "health": "Unhealthy"
+    },
+    "downstreams": [
+      {
+        "id": "contentIngest",
+        "name": "Content Ingestion",
+        "expected": 58529,
+        "received": 58529,
+        "missing": 0,
+        "inError": 0,
+        "lastReceived": {
+          "id": "d2533b7c-f578-4360-b47c-a3993d4b019c",
+          "timestamp": "2023-11-11T02:55:18.555Z"
+        },
+        "health": "Healthy"
+      },
+      {
+        "id": "userManager",
+        "name": "User Manager",
+        "expected": 15,
+        "received": 15,
+        "missing": 0,
+        "inError": 0,
+        "lastReceived": {
+          "id": "a81c3347-8d7c-4552-9db2-f0d91ed33bb1",
+          "timestamp": "2023-11-07T18:24:53.798Z"
+        },
+        "health": "Healthy"
+      },
+      {
+        "id": "eventCollector",
+        "name": "Event Collector",
+        "expected": 173961,
+        "received": 173961,
+        "missing": 0,
+        "inError": 0,
+        "lastReceived": {
+          "id": "eb400735-4188-4b42-8dd5-f23c6b22c92b",
+          "timestamp": "2023-11-12T16:14:53.030Z"
+        },
+        "health": "Healthy"
+      }
+    ]
+  },
+  {
+    "health": "Unhealthy",
+    "meta": {
+      "systemDiagramUrl": "https://excalidraw.com",
+      "runbookUrl": "https://rowdy-jute.com//runbook",
+      "contactSlackChannel": "https://dear-defendant.name//slack#userClientSupport"
+    },
+    "clientId": "e52b9bba-8ef8-4f96-919f-5fd4646d710a",
+    "upstream": {
+      "id": "e52b9bba-8ef8-4f96-919f-5fd4646d710a",
+      "name": "User Client",
+      "total": 6610,
+      "inError": 2203,
+      "health": "Unhealthy"
+    },
+    "downstreams": [
+      {
+        "id": "contentIngest",
+        "name": "Content Ingestion",
+        "expected": 6610,
+        "received": 5949,
+        "missing": 330,
+        "inError": 330,
+        "lastReceived": {
+          "id": "d6cf413c-ad88-439a-ac44-2558021e9e5e",
+          "timestamp": "2023-11-06T09:24:46.296Z"
+        },
+        "health": "Unhealthy"
+      },
+      {
+        "id": "userManager",
+        "name": "User Manager",
+        "expected": 15,
+        "received": 15,
+        "missing": 0,
+        "inError": 0,
+        "lastReceived": {
+          "id": "4ff2cfb6-7d0a-4499-9473-0923a1156d10",
+          "timestamp": "2023-11-05T07:49:44.691Z"
+        },
+        "health": "Healthy"
+      },
+      {
+        "id": "eventCollector",
+        "name": "Event Collector",
+        "expected": 18901,
+        "received": 17010,
+        "missing": 945,
+        "inError": 945,
+        "lastReceived": {
+          "id": "cfe97692-7ae9-4b0f-946b-a9fe72f97734",
+          "timestamp": "2023-11-12T16:44:21.572Z"
+        },
+        "health": "Investigation Needed"
+      }
+    ]
+  },
+  {
+    "health": "Unhealthy",
+    "meta": {
+      "systemDiagramUrl": "https://excalidraw.com",
+      "runbookUrl": "https://burly-law.net/runbook",
+      "contactSlackChannel": "https://pastel-grill.com/slack#userClientSupport"
+    },
+    "clientId": "85fc8866-5c3d-463f-a0c9-abe273249310",
+    "upstream": {
+      "id": "85fc8866-5c3d-463f-a0c9-abe273249310",
+      "name": "User Client",
+      "total": 142111,
+      "inError": 114876,
+      "health": "Unhealthy"
+    },
+    "downstreams": [
+      {
+        "id": "contentIngest",
+        "name": "Content Ingestion",
+        "expected": 142111,
+        "received": 127899,
+        "missing": 7105,
+        "inError": 7105,
+        "lastReceived": {
+          "id": "45413267-ecf3-4e0e-bf12-be7004ae8ed6",
+          "timestamp": "2023-10-26T10:44:48.485Z"
+        },
+        "health": "Unhealthy"
+      },
+      {
+        "id": "userManager",
+        "name": "User Manager",
+        "expected": 15,
+        "received": 15,
+        "missing": 0,
+        "inError": 0,
+        "lastReceived": {
+          "id": "4f5cf275-2fde-4f82-9db1-f8ff3e53e536",
+          "timestamp": "2023-10-16T16:21:47.135Z"
+        },
+        "health": "Healthy"
+      },
+      {
+        "id": "eventCollector",
+        "name": "Event Collector",
+        "expected": 178089,
+        "received": 160280,
+        "missing": 8904,
+        "inError": 8904,
+        "lastReceived": {
+          "id": "26ee89c5-8074-4a8a-81b3-44226747793d",
+          "timestamp": "2023-11-12T17:44:12.971Z"
+        },
+        "health": "Investigation Needed"
+      }
+    ]
+  },
+  {
+    "health": "Unhealthy",
+    "meta": {
+      "systemDiagramUrl": "https://excalidraw.com",
+      "runbookUrl": "https://short-term-infinite.biz/runbook",
+      "contactSlackChannel": "https://innocent-aluminium.name//slack#userClientSupport"
+    },
+    "clientId": "bea1bc69-5f0a-49a8-aabc-c6282ef8a674",
+    "upstream": {
+      "id": "bea1bc69-5f0a-49a8-aabc-c6282ef8a674",
+      "name": "User Client",
+      "total": 113794,
+      "inError": 78020,
+      "health": "Unhealthy"
+    },
+    "downstreams": [
+      {
+        "id": "contentIngest",
+        "name": "Content Ingestion",
+        "expected": 113794,
+        "received": 102414,
+        "missing": 5689,
+        "inError": 5689,
+        "lastReceived": {
+          "id": "a2af5e59-c1d9-4350-9b35-228903000dbd",
+          "timestamp": "2023-11-06T15:15:59.923Z"
+        },
+        "health": "Unhealthy"
+      },
+      {
+        "id": "userManager",
+        "name": "User Manager",
+        "expected": 15,
+        "received": 15,
+        "missing": 0,
+        "inError": 0,
+        "lastReceived": {
+          "id": "cbefba2a-6316-4e5d-a000-2a8804ca7cca",
+          "timestamp": "2023-11-07T06:18:32.136Z"
+        },
+        "health": "Healthy"
+      },
+      {
+        "id": "eventCollector",
+        "name": "Event Collector",
+        "expected": 215070,
+        "received": 193563,
+        "missing": 10753,
+        "inError": 10753,
+        "lastReceived": {
+          "id": "d0822a3c-2e37-46dc-b69d-700b1f8beae7",
+          "timestamp": "2023-11-12T15:51:22.944Z"
+        },
+        "health": "Investigation Needed"
+      }
+    ]
+  },
+  {
+    "health": "Unhealthy",
+    "meta": {
+      "systemDiagramUrl": "https://excalidraw.com",
+      "runbookUrl": "https://starry-allowance.com/runbook",
+      "contactSlackChannel": "https://soupy-airbag.com//slack#userClientSupport"
+    },
+    "clientId": "daad6d82-3df5-4e14-be9e-10ab9f8120eb",
+    "upstream": {
+      "id": "daad6d82-3df5-4e14-be9e-10ab9f8120eb",
+      "name": "User Client",
+      "total": 29295,
+      "inError": 1704,
+      "health": "Unhealthy"
+    },
+    "downstreams": [
+      {
+        "id": "contentIngest",
+        "name": "Content Ingestion",
+        "expected": 29295,
+        "received": 26365,
+        "missing": 1464,
+        "inError": 1464,
+        "lastReceived": {
+          "id": "68c835a3-8a0b-47ea-9857-e979e1b3f855",
+          "timestamp": "2023-11-04T08:05:34.183Z"
+        },
+        "health": "Unhealthy"
+      },
+      {
+        "id": "userManager",
+        "name": "User Manager",
+        "expected": 15,
+        "received": 15,
+        "missing": 0,
+        "inError": 0,
+        "lastReceived": {
+          "id": "77b1c7fd-c6e2-4f96-aaa9-0f289aef64d3",
+          "timestamp": "2023-11-02T00:04:55.558Z"
+        },
+        "health": "Healthy"
+      },
+      {
+        "id": "eventCollector",
+        "name": "Event Collector",
+        "expected": 158086,
+        "received": 142277,
+        "missing": 7904,
+        "inError": 7904,
+        "lastReceived": {
+          "id": "8469a9d6-6deb-4b1e-8770-b53ad633051f",
+          "timestamp": "2023-11-12T17:08:32.147Z"
+        },
+        "health": "Investigation Needed"
+      }
+    ]
+  },
+  {
+    "health": "Healthy",
+    "meta": {
+      "systemDiagramUrl": "https://excalidraw.com",
+      "runbookUrl": "https://thrifty-pancake.net//runbook",
+      "contactSlackChannel": "https://harmful-bird-watcher.biz/slack#userClientSupport"
+    },
+    "clientId": "b51cf8c9-f455-4209-bbc0-d9cfb1f436b2",
+    "upstream": {
+      "id": "b51cf8c9-f455-4209-bbc0-d9cfb1f436b2",
+      "name": "User Client",
+      "total": 133758,
+      "inError": 37408,
+      "health": "Unhealthy"
+    },
+    "downstreams": [
+      {
+        "id": "contentIngest",
+        "name": "Content Ingestion",
+        "expected": 133758,
+        "received": 133758,
+        "missing": 0,
+        "inError": 0,
+        "lastReceived": {
+          "id": "8f5a38e9-3ca7-409e-8005-e97fda33cbc6",
+          "timestamp": "2023-11-03T16:47:43.428Z"
+        },
+        "health": "Healthy"
+      },
+      {
+        "id": "userManager",
+        "name": "User Manager",
+        "expected": 15,
+        "received": 15,
+        "missing": 0,
+        "inError": 0,
+        "lastReceived": {
+          "id": "17b76216-3509-4743-97b3-e2712f793b35",
+          "timestamp": "2023-11-04T08:57:21.748Z"
+        },
+        "health": "Healthy"
+      },
+      {
+        "id": "eventCollector",
+        "name": "Event Collector",
+        "expected": 13976,
+        "received": 13976,
+        "missing": 0,
+        "inError": 0,
+        "lastReceived": {
+          "id": "2758bb72-0a4b-4cc6-8115-6797fe9297c7",
+          "timestamp": "2023-11-12T17:09:33.783Z"
+        },
+        "health": "Healthy"
+      }
+    ]
+  },
+  {
+    "health": "Unhealthy",
+    "meta": {
+      "systemDiagramUrl": "https://excalidraw.com",
+      "runbookUrl": "https://superb-maple.com//runbook",
+      "contactSlackChannel": "https://decent-step-brother.biz//slack#userClientSupport"
+    },
+    "clientId": "c969518f-625d-49f6-8472-9d011a8679e9",
+    "upstream": {
+      "id": "c969518f-625d-49f6-8472-9d011a8679e9",
+      "name": "User Client",
+      "total": 108530,
+      "inError": 33351,
+      "health": "Unhealthy"
+    },
+    "downstreams": [
+      {
+        "id": "contentIngest",
+        "name": "Content Ingestion",
+        "expected": 108530,
+        "received": 97677,
+        "missing": 5426,
+        "inError": 5426,
+        "lastReceived": {
+          "id": "3b77adbe-eeaf-46be-b033-2d6ba6f7d097",
+          "timestamp": "2023-10-28T16:57:08.353Z"
+        },
+        "health": "Unhealthy"
+      },
+      {
+        "id": "userManager",
+        "name": "User Manager",
+        "expected": 15,
+        "received": 15,
+        "missing": 0,
+        "inError": 0,
+        "lastReceived": {
+          "id": "86d75ac1-2151-4c56-81e4-c06a38ef124b",
+          "timestamp": "2023-10-29T16:04:27.674Z"
+        },
+        "health": "Healthy"
+      },
+      {
+        "id": "eventCollector",
+        "name": "Event Collector",
+        "expected": 197159,
+        "received": 177443,
+        "missing": 9857,
+        "inError": 9857,
+        "lastReceived": {
+          "id": "2f879c78-f156-4e0e-853e-8ed2f9f32c3b",
+          "timestamp": "2023-11-12T17:15:48.044Z"
+        },
+        "health": "Investigation Needed"
+      }
+    ]
+  }
+]
